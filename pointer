@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+    int a=2;
+    int *p;
+    p=&a;
+    printf("Value of a = %d\n", a);
+    printf("Address of a = %p\n", &a);
+    printf("Poniter p (address stored) = %p\n", p);
+    printf("Value at pointer*p =%d\n", *p);
+    return 0;
+    
+}
